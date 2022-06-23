@@ -4,6 +4,7 @@ const express = require('express');
 const cors = require('cors');
 const morgan = require('morgan');
 require('dotenv').config();
+const termsRouter = require('../src/routes/glossaryTerms');
 
 const errorHandler = require('./middleware/500');
 const notFound = require('./middleware/404');
@@ -17,6 +18,8 @@ app.use(morgan('dev'));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+app.use(termsRouter);
 
 app.use(notFound);
 app.use(errorHandler);
