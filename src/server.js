@@ -70,7 +70,7 @@ app.post('/signup', async (req, res, next) => {
 
 app.get('/hello', basicAuth, (req, res, next) => {
   let { name } = req.query;
-  console.log('auth proof', req.user.username);
+  // console.log('auth proof', req.user.username);
   res.status(200).send(`Greetings ${name}! this route is now secured by Basic Auth!!!`);
 });
 
