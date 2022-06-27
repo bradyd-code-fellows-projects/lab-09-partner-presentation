@@ -12,7 +12,7 @@ You and a partner choose a project of your own that incorporates what you have l
 
 ### Links and Resources
 
-* [Prod url]()
+* [Prod url](https://auth-glossary-app.herokuapp.com/)
 * [GitHub Repo](https://github.com/bradydavenport/lab-09-partner-presentation/tree/dev)
 
 ### Setup
