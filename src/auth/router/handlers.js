@@ -22,7 +22,7 @@ async function handleSignUp(req, res, next) {
 async function handleSignIn(req, res, next) {
   try {
     const user = {
-      user: req.user,
+      username: req.username,
       token: req.user.token,
     };
     res.status(200).json(user);
