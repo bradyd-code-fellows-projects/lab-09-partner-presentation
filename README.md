@@ -1,14 +1,5 @@
 # lab-09-partner-presentation
 
-## Requirements
-
-Your application must employ the following programming concepts:
-
-1. API/Auth server must be deployed. 
-2. Use of your API server to perform database operations. 
-3. Use of login/auth/acl to control access to your resources. 
-
-
 
 UML:
 
